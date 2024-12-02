@@ -76,12 +76,12 @@ myapp.html
                 font-size: large;
                 font-family: Arial, Helvetica, sans-serif;
                 color:aqua (221, 39, 39);
-                top: 90px;
+                top: 165px;
                 position: relative;
             }
             .pic {
                 position: relative;
-                top: 150px;
+                top: 2px;
                 left: 250px;
                 width: 100px;
                 height: 100px;
@@ -100,14 +100,18 @@ myapp.html
                 display: inline;
                 position: relative;
                 color: aqua (221, 39, 39);
-                top: 210px;
+                top: 290px;
             }
             .pub {
                 font-size: large;
                 position: relative;
-                top: 180px;
+                top: 250px;
                 left: 330px;
                 color: aqua (221, 39, 39);
+            }
+            .hr{
+                position: relative;
+                top:80px;
             }
         </style>
         <title> Book Front Cover Page  </title>
@@ -130,7 +134,7 @@ myapp.html
                 <img src= "jansi.pic.jpg" width="150" height="150" >
             </div>
             <div class="hr2">
-                <hr>
+                <hr class="hr">
             </div>
             <div class="name">
                 <p><b>Jansi rani A A</b></p>
@@ -144,10 +148,11 @@ myapp.html
         </div>
     </body>
 </html>
+
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (27).png>)
+![alt text](<Screenshot (35).png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
